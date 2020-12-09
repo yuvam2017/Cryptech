@@ -111,6 +111,19 @@ def decode():
         if (pixels[-1] % 2 != 0):
             return data
 def main():
+        """
+        Use the serial based commands.\n1.To Encode and\n2.To decode
+        Then choose the image name (it will be handy if you use keep image in same folder)
+        Then enter the new file name with extensions.
+        For Decoding
+        Choose second option and 
+        then Choose the file name(encoded one).
+        You will get the message.
+        
+        
+        NOTE: Do not use the image option in whatsapp to send this.Use document form of the image by chhoosing the Document option from the Whatsapp
+        You can use theGmail or other sharing options which don not resizes the image. this is a pixel based enctryption Take Care!!!!!
+        """
     a = int(input("Welcome to Cryptech ::\n"
                         "1. Encode\n2. Decode\n"))
     if (a == 1):
